@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Picture Sketch</title>
+  <link rel = "icon" href =  
+"https://img.icons8.com/color/48/fa314a/babys-room.png" 
+        type = "image/x-icon"> 
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<!-- As a link -->
+<nav class="navbar navbar-light bg-danger">
+  <a class="navbar-brand" href="#">Convert Image Into A Pencil Sketch</a>
+</nav>
+
+<div class="container">
+<div class="text-center">
+
+  <h3 class="font-weight-bold">Download your Image</h3>
+</div>
+</div>
+
+<div class="text-center">
+  <img src="{{url_for('static', filename='output/Done.jpg')}}" class="rounded" alt="...">
+  </div>
+
+<div class="border border-light p-3 mb-4">
+<div class="text-center">
+  <a href="{{url_for('static', filename='output/Done.jpg')}}" download="image_to_sketch">
+		<button type="button" class="btn btn-primary ">Download</button>
+	</a>
+ </div>
+</div>
+<p class="mt-5 mb-3 text-muted text-center">&copy; 2019-2020 by sonu</p>
+</body>
+</html>
