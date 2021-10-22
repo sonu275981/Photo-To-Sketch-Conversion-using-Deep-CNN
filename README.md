@@ -1,4 +1,4 @@
-Photo-To-Sketch Conversion-using-Deep-CNN
+## Photo-To-Sketch Conversion-using-Deep-CNN
 
 We aim to convert sketches of face images to their photo realistic versions
 
